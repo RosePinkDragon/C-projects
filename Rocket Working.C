@@ -14,7 +14,8 @@ void main ()
   //loop for the plane
   for (i = 0; i < 300; i++)
     {
-      //rocket Thruster
+      
+    //rocket Thruster
       //line(220, 380, 390, 380); //holder
       ellipse (305, 385 - i, 20, 160, 70, 15);	//holder too
       ellipse (255, 380 - i, 325, 40, 25, 15);
@@ -31,20 +32,24 @@ void main ()
       //line(330, 385, 330, 390);
       //line(360, 380, 360, 390);
 
-      //rocket wings
+      
+    //rocket wings
       /*this is a line one
          line(230, 380, 270, 320);
          line(380, 380, 340, 320);
        */
-      //ellipse
+     
+    //ellipse
       ellipse (220, 305 - i, 296, 360, 50, 80);	//left
       ellipse (390, 305 - i, 190, 245, 50, 80);	//right
-      //body
+      
+    //body
       // 2 side
       line (270, 320 - i, 270, 255 - i);
       line (340, 320 - i, 340, 255 - i);
 
-      //dome
+      
+    //dome
       // refrence line ->
       //line(305, 380, 305, 00);//checker
       ellipse (305, 255 - i, 95, 180, 35, 75);
@@ -52,7 +57,8 @@ void main ()
       //first two are circles and the next two are from where to where
       //last two are the size of ellipse in x and y
       //ellipse(220,250,0,72,50,100);
-      //windows
+      
+    //windows
       circle (305, 215 - i, 12);
       circle (305, 215 - i, 8);
       circle (305, 265 - i, 15);
@@ -60,10 +66,12 @@ void main ()
       circle (305, 325 - i, 18);
       circle (305, 325 - i, 13);
 
-      //tip
+      
+    //tip
       line (300, 180 - i, 305, 130 - i);
       line (310, 180 - i, 305, 130 - i);
-      //stage
+      
+    //stage
       line (0, 400, 1000, 400);
       // left line(450, 400, 450, 390);
       //right line(150, 400, 150, 390);
